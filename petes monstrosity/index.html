@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Hot Beans Web!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class = "hotbeanslogo">
+            <img src="assets/images/hotbeanslogo.png" alt="hot beans logo" width="90" height="90">
+        </div>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="index.html">Company Profile</a></li>
+                <li><a href="trainee.html">Trainee Profiles</a></li>
+                <li><a href="jobspecs.html">Job Specifications</a></li>
+                <li><a href="application.html">Application Form</a></li>
+                <li><a href="courses.html">Web Development Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="company-profile">
+            <h2>Company Profile</h2>
+            <p>Hot Beans Web is a leading web development company dedicated to creating innovative and user-friendly websites. We value creativity, collaboration, and continuous learning.</p>
+        </section>
+
+        <section id="trainee-profiles">
+            <h2>Trainee Web Developers</h2>
+            <div class="trainee">
+                <h3>Jane Doe</h3>
+                <p>Jane is a recent graduate from XYZ University with a passion for front-end development. She loves creating interactive user interfaces.</p>
+            </div>
+            <div class="trainee">
+                <h3>John Smith</h3>
+                <p>John has completed a coding bootcamp and specializes in back-end development. He enjoys working with databases and server-side technologies.</p>
+            </div>
+        </section>
+
+        <section id="job-specifications">
+            <h2>Job Specifications</h2>
+            <h3>Required Qualifications</h3>
+            <ul>
+                <li>Proficiency in HTML, CSS, and JavaScript</li>
+                <li>Experience with frameworks like React or Angular</li>
+                <li>Understanding of back-end technologies (Node.js, PHP, etc.)</li>
+                <li>Strong problem-solving skills</li>
+                <li>Team player with good communication skills</li>
+            </ul>
+        </section>
+
+        <section id="application-form">
+            <h2>Online Application Form</h2>
+            <form id="applicationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="resume">Resume (URL):</label>
+                <input type="url" id="resume" name="resume" required>
+                
+                <button type="submit">Submit Application</button>
+            </form>
+            <div id="formResponse"></div>
+        </section>
+
+        <section id="courses">
+            <h2>Web Development Courses</h2>
+            <ul>
+                <li><a href="https://www.codecademy.com/">Codecademy</a></li>
+                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+                <li><a href="https://www.udemy.com/courses/search/?q=web%20development">Udemy</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Hot Beans Web. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-address">
+                <strong>Company Address</strong><br>
+                75 Broadway<br>
+                Peterborough<br>
+                PE1 1SY
+            </div>
+            <div class="footer-contact">
+                <strong>Phone:</strong> 01733 762255<br>
+                <strong>Email:</strong> <a href="mailto:contactus@hotbeansweb.co.uk">contactus@hotbeansweb.co.uk</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
